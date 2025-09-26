@@ -1,0 +1,9 @@
+C:\Users\leaoz\Documents\TI Dev\SolRFC\Data\bin\Debug\Data.dll
+C:\Users\leaoz\Documents\TI Dev\SolRFC\Data\bin\Debug\Data.pdb
+C:\Users\leaoz\Documents\TI Dev\SolRFC\Data\bin\Debug\Entities.dll
+C:\Users\leaoz\Documents\TI Dev\SolRFC\Data\bin\Debug\Entities.pdb
+C:\Users\leaoz\Documents\TI Dev\SolRFC\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Users\leaoz\Documents\TI Dev\SolRFC\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\leaoz\Documents\TI Dev\SolRFC\Data\obj\Debug\Data.csproj.Up2Date
+C:\Users\leaoz\Documents\TI Dev\SolRFC\Data\obj\Debug\Data.dll
+C:\Users\leaoz\Documents\TI Dev\SolRFC\Data\obj\Debug\Data.pdb

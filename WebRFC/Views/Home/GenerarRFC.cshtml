@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Generar RFC";
+}
+
+<h2>Generar RFC</h2>
+
+<div>
+    <p>Ingresa los siguientes datos.</p>
+    <form action="/Home/RegistrarRFC" method="post">
+        <label>Nombre(s):</label>
+        <input type="text" name="Nombre" value="" placeholder="Nombre(s)."/>
+
+        <label>Apellido Paterno:</label>
+        <input type="text" name="ApellidoPaterno" value="" placeholder="Apellido Paterno."/>
+        
+        <label>Apellido Materno:</label>
+        <input type="text" name="ApellidoMaterno" value="" placeholder="Apellido Materno."/>
+        
+        <label>Fecha de Nacimiento:</label>
+        <input type="datetime" name="FechaNacimiento" value="" placeholder="Día / Mes / Año"/>
+
+        <input type="submit" name="enviar_rfc" value="Genera tu RFC" />
+    </form>
+</div>
+

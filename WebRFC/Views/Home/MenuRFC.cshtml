@@ -1,0 +1,19 @@
+﻿@using Entities
+@model Ent_Rfc
+@{
+    ViewBag.Title = "Menu RFC";
+}
+
+<h2>Menu RFC</h2>
+
+<div class="card d-flex flex-column">
+    <p><b>Tu RFC es:</b> @Model.Rfc</p>
+    <div>
+
+    </div>
+    <div class="d-flex flex-grow-1">
+        <a href="/Home/IrGenerarRFC" class="btn btn-dark me-3">Generar otro RFC</a>
+        <a href="/Home/IrBaseDeDatos" class="btn btn-dark me-3">Ir a la Base de Datos</a>
+        <a href="/Home/Index" class="btn btn-dark me-3">Salir</a>
+    </div>
+</div>

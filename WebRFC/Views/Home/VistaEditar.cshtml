@@ -1,0 +1,46 @@
+﻿@using Entities;
+@model Ent_Rfc
+@{
+    ViewBag.Title = "Vista Editar";
+}
+
+@if (TempData["mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show mb-3" role="alert">
+        @TempData["mensaje"]
+
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+@if (TempData["error"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        <b>Ocurrio un error: </b>@TempData["error"]
+
+
+    </div>
+}
+
+<h2>Editar RFC</h2>
+
+<div>
+    <p>Ingresa los siguientes datos.</p>
+    <form action="/Home/EditarRFC" method="post">
+        <input type="hidden" name="idRfc" value="@Model.idRfc" />
+
+        <label>Nombre(s):</label>
+        <input type="text" name="Nombre" value="@Model.Nombre" />
+
+        <label>Apellido Paterno:</label>
+        <input type="text" name="ApellidoPaterno" value="@Model.ApellidoPaterno" />
+
+        <label>Apellido Materno:</label>
+        <input type="text" name="ApellidoMaterno" value="@Model.ApellidoMaterno" />
+
+        <label>Fecha de Nacimiento:</label>
+        <input type="datetime" name="FechaNacimiento" value="@Model.FechaNacimiento.ToString("dd/MM/yyyy")">
+
+        <input type="submit" name="editar_rfc" value="Actualizar RFC" />
+    </form>
+</div>
+

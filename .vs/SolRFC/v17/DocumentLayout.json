@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\webrfc\\views\\home\\basededatos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|solutionrelative:webrfc\\views\\home\\basededatos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\webrfc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|solutionrelative:webrfc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|c:\\users\\leaoz\\documents\\ti dev\\solrfc\\webrfc\\views\\home\\generarrfc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|solutionrelative:webrfc\\views\\home\\generarrfc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\webrfc\\views\\home\\menurfc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|solutionrelative:webrfc\\views\\home\\menurfc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C01850-B91B-455B-A458-EEEEA6C98B9E}|Business\\Business.csproj|c:\\users\\leaoz\\documents\\ti dev\\solrfc\\business\\n_rfc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C01850-B91B-455B-A458-EEEEA6C98B9E}|Business\\Business.csproj|solutionrelative:business\\n_rfc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B4A3E6-A596-4372-967C-CBEBC357D0EE}|Data\\Data.csproj|c:\\users\\leaoz\\documents\\ti dev\\solrfc\\data\\d_rfc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B4A3E6-A596-4372-967C-CBEBC357D0EE}|Data\\Data.csproj|solutionrelative:data\\d_rfc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\webrfc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|solutionrelative:webrfc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\webrfc\\views\\home\\vistaeliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|solutionrelative:webrfc\\views\\home\\vistaeliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\webrfc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00111DD1-91FA-48F9-8034-E45535156498}|WebRFC\\WebRFC.csproj|solutionrelative:webrfc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenerarRFC.cshtml",
+              "DocumentMoniker": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Views\\Home\\GenerarRFC.cshtml",
+              "RelativeDocumentMoniker": "WebRFC\\Views\\Home\\GenerarRFC.cshtml",
+              "ToolTip": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Views\\Home\\GenerarRFC.cshtml",
+              "RelativeToolTip": "WebRFC\\Views\\Home\\GenerarRFC.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T16:42:48.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "N_Rfc.cs",
+              "DocumentMoniker": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\Business\\N_Rfc.cs",
+              "RelativeDocumentMoniker": "Business\\N_Rfc.cs",
+              "ToolTip": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\Business\\N_Rfc.cs",
+              "RelativeToolTip": "Business\\N_Rfc.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T16:21:50.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseDeDatos.cshtml",
+              "DocumentMoniker": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Views\\Home\\BaseDeDatos.cshtml",
+              "RelativeDocumentMoniker": "WebRFC\\Views\\Home\\BaseDeDatos.cshtml",
+              "ToolTip": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Views\\Home\\BaseDeDatos.cshtml",
+              "RelativeToolTip": "WebRFC\\Views\\Home\\BaseDeDatos.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T02:13:09.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebRFC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebRFC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T20:24:09.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebRFC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebRFC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T20:01:16.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuRFC.cshtml",
+              "DocumentMoniker": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Views\\Home\\MenuRFC.cshtml",
+              "RelativeDocumentMoniker": "WebRFC\\Views\\Home\\MenuRFC.cshtml",
+              "ToolTip": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Views\\Home\\MenuRFC.cshtml",
+              "RelativeToolTip": "WebRFC\\Views\\Home\\MenuRFC.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T20:58:51.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "D_Rfc.cs",
+              "DocumentMoniker": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\Data\\D_Rfc.cs",
+              "RelativeDocumentMoniker": "Data\\D_Rfc.cs",
+              "ToolTip": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\Data\\D_Rfc.cs",
+              "RelativeToolTip": "Data\\D_Rfc.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAcwNAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T21:20:18.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebRFC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebRFC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T19:58:45.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VistaEliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Views\\Home\\VistaEliminar.cshtml",
+              "RelativeDocumentMoniker": "WebRFC\\Views\\Home\\VistaEliminar.cshtml",
+              "ToolTip": "C:\\Users\\leaoz\\Documents\\TI Dev\\SolRFC\\WebRFC\\Views\\Home\\VistaEliminar.cshtml",
+              "RelativeToolTip": "WebRFC\\Views\\Home\\VistaEliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T00:43:20.289Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

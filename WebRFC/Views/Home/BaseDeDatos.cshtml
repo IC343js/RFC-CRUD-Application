@@ -1,0 +1,65 @@
+﻿@using Entities;
+@model List<Ent_Rfc>
+@{
+    ViewBag.Title = "Base De Datos";
+
+    // Grupos de RFC para identificar duplicados
+    var rfcsGrouped = Model.GroupBy(r => r.Rfc).ToList();
+    var duplicateRfcs = rfcsGrouped.Where(g => g.Count() > 1).SelectMany(g => g.Skip(1)).Select(r => r.idRfc).ToHashSet();
+}
+<h2>Base De Datos</h2>
+@if (TempData["mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show mb-3" role="alert">
+        @TempData["mensaje"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+@if (TempData["error"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        <b>Ocurrio un error: </b>@TempData["error"]
+    </div>
+}
+<form action="/Home/Buscar" method="post">
+    <div class="row">
+        <div class="col-6 mt-3 mb-3">
+            <input type="text" name="texto" class="form-control" placeholder="Ingresa -letras - números" />
+        </div>
+        <div class="col-2">
+            <input type="submit" value="Buscar" class="btn btn-success" />
+        </div>
+    </div>
+</form>
+
+<div class="mb-3">
+    <span class="badge bg-secondary">EXISTEN @Model.Count() REGISTROS EN LA BASE DE DATOS</span>
+</div>
+
+<div>
+    <table class="table table-bordered table-hover">
+        <tr>
+            <td><b>Nombre</b></td>
+            <td><b>Fecha de Nacimiento</b></td>
+            <td><b>RFC</b></td>
+            <td><b>Acciones</b></td>
+        </tr>
+        @foreach (Ent_Rfc rfc in Model)
+        {
+            <tr @(duplicateRfcs.Contains(rfc.idRfc) ? "style=color:red;" : "")>
+                <td>@rfc.Nombre @rfc.ApellidoPaterno @rfc.ApellidoMaterno</td>
+                <td>@rfc.FechaNacimiento.ToString("dd/MMM/yyyy").ToUpper()</td>
+                <td>@rfc.Rfc</td>
+                <td>
+                    <a href="/Home/IrEditar?idRfc=@rfc.idRfc" class="btn btn-warning">EDITAR</a>
+                    <a href="/Home/IrEliminar?idRfc=@rfc.idRfc" class="btn btn-danger">BORRAR</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+<div class="d-flex flex-row">
+    <a href="/Home/IrGenerarRFC" class="btn btn-dark me-3">Generar otro RFC</a>
+    <a href="/Home/Index" class="btn btn-dark me-3">Inicio</a>
+    <a href="/Home/Index" class="btn btn-dark">Salir</a>
+</div>

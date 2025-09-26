@@ -1,0 +1,23 @@
+﻿@using Entities;
+@model Ent_Rfc
+@{
+    ViewBag.Title = "Vista Eliminar";
+}
+
+<h2>Vista Eliminar</h2>
+
+<div class="container">
+        <p class="alert alert-danger fw-bold">¿Seguro que desea eliminar el RFC?</p>
+        <ul class="list-group mb-4">
+            <li class="list-group-item"><b>Id: </b> @Model.idRfc</li>
+            <li class="list-group-item"><b>Nombre: </b> @Model.Nombre</li>
+            <li class="list-group-item"><b>Apellido Paterno: </b> @Model.ApellidoPaterno</li>
+            <li class="list-group-item"><b>Apellido Materno: </b> @Model.ApellidoMaterno</li>
+            <li class="list-group-item"><b>Fecha de Nacimiento: </b> @Model.FechaNacimiento</li>
+            <li class="list-group-item"><b>RFC: </b> @Model.Rfc</li>
+        </ul>
+        
+        <a href="/Home/EliminarRFC?idRfc=@Model.idRfc" class="btn btn-danger">Eliminar</a>
+        <a href="/Home/IrBaseDeDatos" class="btn btn-dark">Cancelar</a>
+    
+</div>
